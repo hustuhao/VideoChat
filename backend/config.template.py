@@ -3,7 +3,7 @@
 AI_CONFIG = {
     "base_url": "https://open.bigmodel.cn/api/paas/v4/",
     "api_key": "your_api_key_here",  # 替换为你的 API 密钥
-    "model": "glm-4-flash"
+    "model": "glm-4-flash",
 }
 
 # STT Service Configuration
@@ -16,5 +16,5 @@ STT_CONFIG = {
     "whisper_model": "tiny",  # 可选值: tiny, base, small, medium, large
     "beam_size": 5,  # 集束搜索的大小，越大准确率越高，但速度越慢
     "language": "zh",  # 用来选择视频转文字的语言
-    "vad_filter": True  # 是否开启VAD过滤，开启后会过滤掉语音中的静音部分，提高转文字的准确率
+    "vad_filter": True,  # 是否开启VAD过滤，开启后会过滤掉语音中的静音部分，提高转文字的准确率
 }
